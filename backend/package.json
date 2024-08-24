@@ -1,0 +1,19 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "Backend for seat-io",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/balvind3r/seat-io.git"
+  },
+  "author": "balvind3r",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/balvind3r/seat-io/issues"
+  },
+  "homepage": "https://github.com/balvind3r/seat-io#readme"
+}
