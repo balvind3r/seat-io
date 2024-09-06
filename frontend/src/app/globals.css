@@ -3,17 +3,9 @@
 @tailwind utilities;
 
 :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+  --foreground-rgb: 255, 255, 255;
+  --background-start-rgb: 0, 0, 0;
+  --background-end-rgb: 0, 0, 0;
 }
 
 body {
@@ -26,6 +18,52 @@ body {
     rgb(var(--background-start-rgb));
 }
 
+/* Font Faces */
+@font-face {
+  font-family: "SansR";
+  src: url("/Sansation/Sansation_Regular.ttf");
+}
+@font-face {
+  font-family: "SansB";
+  src: url("/Sansation/Sansation_Bold.ttf");
+}
+@font-face {
+  font-family: "SansI";
+  src: url("/Sansation/Sansation_Italic.ttf");
+}
+@font-face {
+  font-family: "SansBI";
+  src: url("/Sansation/Sansation_Bold_Italic.ttf");
+}
+@font-face {
+  font-family: "SansL";
+  src: url("/Sansation/Sansation_Light.ttf");
+}
+@font-face {
+  font-family: "SansLI";
+  src: url("/Sansation/Sansation_Light_Italic.ttf");
+}
+
+.SansR {
+  font-family: "SansR", sans-serif;
+}
+.SansB {
+  font-family: "SansB", sans-serif;
+}
+.SansL {
+  font-family: "SansL", sans-serif;
+}
+.SansI {
+  font-family: "SansI", sans-serif;
+}
+.SansBI {
+  font-family: "SansBI", sans-serif;
+}
+.SansLI {
+  font-family: "SansLI", sans-serif;
+}
+
+/* Custom Utilities */
 @layer utilities {
   .text-balance {
     text-wrap: balance;
